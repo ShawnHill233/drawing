@@ -1,0 +1,36 @@
+#tutorial {
+            border: 1px solid black;
+        }
+
+        #tutorial:hover {
+            cursor: none;
+        }
+
+        #cursor {
+            position: absolute;
+            rgba(255, 255, 255, 0.2);
+            z-index: -1;
+        }
+        canvas {
+            float: left;
+        }
+        /* color-list */
+        #color-list {
+            float: left;
+            margin-left: 5px;
+        }
+        #color-list ul {
+            list-style-type: none;
+            margin: 0;
+            float: left;
+            padding: 0;
+        }
+        #color-list li {
+            width: 40px;
+            height: 40px;
+            margin-top: 2px;
+        }
+        #red { background-color: red; }
+        #green { background-color: green; }
+        #yellow { background-color: yellow; }
+        #black { background-color: black; }
